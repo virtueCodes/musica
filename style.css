@@ -1,0 +1,298 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Quicksand;
+
+}
+
+body {
+  background: #1A1E1F;
+}
+
+.section-1 {
+  width: auto;
+  height: auto;
+}
+
+
+.nav-items {
+  display: flex;
+  gap: 40px;
+  padding-top: 10px;
+}
+
+.search-bar input {
+  padding: 10px;
+  padding-left: 50px;
+  width: 1224px;
+  outline: none;
+  font-family: Quicksand;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  background-color: #1A1E1F;
+  border: none;
+}
+
+.search-bar i {
+  position: relative;
+  left: 40px;
+
+}
+
+.logo {
+  position: relative;
+  left: 20px;
+  top: 3px;
+}
+
+.contents {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 50px;
+  gap: 50px;
+}
+
+.first-icon a {
+  color: rgba(239, 238, 224, 0.25);
+  display: block;
+  padding-bottom: 20px;
+  margin-left: 15px;
+  padding-top: 19px;
+}
+
+.first-icon {
+  width: 52px;
+  height: 230px;
+  /* dark-alt */
+  background: #1D2123;
+  ;
+  border-radius: 32px;
+  margin-bottom: 20px;
+}
+
+.first-icon a:active {
+  color: #FACD66;
+}
+
+.second-icon {
+  width: 52px;
+  height: 127px;
+  /* dark-alt */
+
+  background: #1D2123;
+  border-radius: 32px;
+}
+
+.second-icon a {
+  color: rgba(239, 238, 224, 0.25);
+  display: block;
+  margin-left: 15px;
+  padding-top: 30px;
+}
+
+.second-icon a:active {
+  color: #FACD66;
+}
+
+.content-2 {
+  display: flex;
+  width: 686px;
+  height: 373px;
+  background: #609EAF;
+  border-radius: 40px;
+}
+
+.texts {
+  display: block;
+  margin-top: 40px;
+  margin-left: 50px;
+  color: white;
+}
+
+.text h3 {
+  font-family: Quicksand;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.text p {
+  font-family: Quicksand;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 240px;
+}
+
+.top-charts h4 {
+  color: white;
+}
+
+.text {
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+
+.likes .img {
+  position: relative;
+  margin-left: -1rem;
+}
+
+.heart {
+  position: relative;
+  left: 10px;
+  bottom: 3px;
+}
+
+.likes p {
+  position: relative;
+  left: 100px;
+  bottom: 23px;
+}
+
+.first-img {
+  position: relative;
+  bottom: 196px;
+  left: 50px;
+  width: 380.67px;
+  height: 569px;
+  z-index: 2;
+
+}
+
+.second-img {
+  position: relative;
+  right: 490px;
+  height: 375px;
+  transform: rotate(1deg);
+
+}
+
+.chart-1,
+.chart-2,
+.chart-3 {
+  display: flex;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #1D2123;
+  color: white;
+  width: 400px;
+  border-radius: 20px;
+  gap: 20px;
+}
+
+.chart-1 img,
+.chart-2 img,
+.chart-3 img {
+  margin-left: 10px;
+}
+
+.like i {
+  position: relative;
+  left: 100px;
+  margin-top: 15px;
+  border: 1px solid#FFFFFF1C;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.content2 h3 {
+  font-family: Quicksand;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.content2 {
+  margin-top: 40px;
+  color: white;
+  padding-left: 120px;
+  font-family: Quicksand;
+}
+
+.new {
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: inherit;
+  padding: 30px;
+  height: 120px;
+  filter: drop-shadow(0px -25px 100px);
+  background-color: rgba(16, 16, 16, 0.51);
+}
+
+.playing {
+  display: flex;
+  justify-content: space-around;
+}
+
+.selected-music {
+  display: flex;
+  gap: 10px;
+}
+
+.play-icons {
+  margin-left: 130px;
+}
+
+.play-icons i {
+  color: white;
+  margin-right: 59px;
+}
+
+
+.play-icons i:active {
+  color: #FACD66;
+}
+
+.contentss {
+  display: block;
+  margin-top: 10px;
+}
+
+.volume {
+  margin-top: 30px;
+  padding-right: 35px;
+}
+
+.volume i:active {
+  color: #FACD66;
+}
+
+.increase {
+  position: relative;
+  left: 29px;
+  bottom: 13px;
+  height: 5px;
+  background-color: rgba(255, 255, 255, 0.04);
+  width: 150px;
+  border-radius: 50%;
+}
+
+.music-interval {
+  position: relative;
+  bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.04);
+  height: 5px;
+  width: 50%;
+  margin: auto;
+  border-radius: 50%;
+}
